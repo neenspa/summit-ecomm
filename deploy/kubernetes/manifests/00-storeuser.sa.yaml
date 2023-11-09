@@ -1,0 +1,18 @@
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  labels:
+    backstage.io/kubernetes-id: summit-ecomm
+    app.kubernetes.io/name: summit-ecomm
+    rht-gitops.com/janus-argocd: summit-ecomm
+  name: storeuser-sa
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  labels:
+    backstage.io/kubernetes-id: summit-ecomm
+    app.kubernetes.io/name: summit-ecomm
+    rht-gitops.com/janus-argocd: summit-ecomm
+  name: storeuseradmin-sa
